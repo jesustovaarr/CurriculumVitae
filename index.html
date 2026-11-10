@@ -1,21 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículum vitae profesional de estudiante de ingeniería en tecnologías de la información.">
+  <title>Mi Currículum | Desarrollo de Software</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p style="color: purple;">Hola Mundo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
-    <p>Profe Jerry lo amo</p>
+  <main class="cv" aria-label="Currículum vitae">
+    <header class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">CURRÍCULUM VITAE · 2026</span>
+        <h1>Tu Nombre <span>Apellido</span></h1>
+        <p class="role">Estudiante de Ingeniería · Desarrollo de Software</p>
+        <p class="intro">Estudiante apasionado por construir soluciones tecnológicas útiles, aprender nuevas herramientas y colaborar en proyectos con impacto real. En búsqueda de una oportunidad de residencias profesionales.</p>
+      </div>
+      <div class="monogram" aria-hidden="true">TN</div>
+    </header>
+
+    <section class="contact" aria-label="Datos de contacto">
+      <a href="mailto:correo@ejemplo.com">✉ <span>correo@ejemplo.com</span></a>
+      <a href="tel:+520000000000">☎ <span>+52 000 000 0000</span></a>
+      <span>⌖ <span>Guanajuato, México</span></span>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">↗ <span>GitHub</span></a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">↗ <span>LinkedIn</span></a>
+    </section>
+
+    <div class="content">
+      <div class="main-column">
+        <section class="section" aria-labelledby="perfil">
+          <h2 id="perfil">Perfil profesional</h2>
+          <p>Estudiante de ingeniería con conocimientos en desarrollo web, bases de datos y soluciones backend. Me interesa participar en equipos donde pueda aplicar mis conocimientos, fortalecer mis habilidades y contribuir a productos de calidad.</p>
+        </section>
+
+        <section class="section" aria-labelledby="proyectos">
+          <h2 id="proyectos">Proyectos destacados</h2>
+          <article class="entry">
+            <div class="entry-head"><h3>Aplicación web full stack</h3><span class="date">Proyecto académico</span></div>
+            <p>Desarrollo de una aplicación web con autenticación, persistencia de datos y consumo de servicios externos.</p>
+            <p class="tech">HTML · CSS · JavaScript · Supabase</p>
+          </article>
+          <article class="entry">
+            <div class="entry-head"><h3>Panel de análisis de datos</h3><span class="date">Proyecto personal</span></div>
+            <p>Diseño de un panel para organizar y visualizar indicadores, facilitando la interpretación de información.</p>
+            <p class="tech">SQL · Python · Visualización de datos</p>
+          </article>
+        </section>
+
+        <section class="section" aria-labelledby="experiencia">
+          <h2 id="experiencia">Experiencia y actividades</h2>
+          <article class="entry">
+            <div class="entry-head"><h3>Colaboración en proyectos académicos</h3><span class="date">Durante la carrera</span></div>
+            <p>Participación en el análisis de requerimientos, desarrollo de funcionalidades, documentación y presentación de resultados en equipo.</p>
+          </article>
+        </section>
+
+        <section class="section" aria-labelledby="educacion">
+          <h2 id="educacion">Formación académica</h2>
+          <article class="entry">
+            <div class="entry-head"><h3>Ingeniería en [nombre de la carrera]</h3><span class="date">[Año] – Actualidad</span></div>
+            <p>[Nombre de la universidad o instituto tecnológico]</p>
+            <p class="muted">Estudiante próximo a realizar residencias profesionales.</p>
+          </article>
+        </section>
+      </div>
+
+      <aside class="side-column" aria-label="Información complementaria">
+        <section class="section" aria-labelledby="habilidades">
+          <h2 id="habilidades">Habilidades técnicas</h2>
+          <h3 class="subheading">Desarrollo web</h3>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span></div>
+          <h3 class="subheading">Backend y datos</h3>
+          <div class="tags"><span>SQL</span><span>Supabase</span><span>APIs REST</span><span>Python</span></div>
+          <h3 class="subheading">Herramientas</h3>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span></div>
+        </section>
+        <section class="section" aria-labelledby="competencias">
+          <h2 id="competencias">Competencias</h2>
+          <ul class="simple-list"><li>Resolución de problemas</li><li>Trabajo en equipo</li><li>Aprendizaje autónomo</li><li>Comunicación efectiva</li><li>Atención al detalle</li></ul>
+        </section>
+        <section class="section" aria-labelledby="idiomas">
+          <h2 id="idiomas">Idiomas</h2>
+          <div class="language"><strong>Español</strong><span>Nativo</span></div>
+          <div class="language"><strong>Inglés</strong><span>[Tu nivel]</span></div>
+        </section>
+        <section class="availability"><span class="status-dot"></span><div><strong>Disponible para residencias</strong><p>Interés en desarrollo web, backend y datos.</p></div></section>
+      </aside>
+    </div>
+    <footer>Referencias y portafolio disponibles a solicitud.</footer>
+  </main>
 </body>
 </html>
