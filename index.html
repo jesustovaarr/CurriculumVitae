@@ -1,94 +1,31 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Currículum vitae profesional de estudiante de ingeniería en tecnologías de la información.">
-  <title>Mi Currículum | Desarrollo de Software</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e1a"><meta name="description" content="Currículum y portafolio profesional de desarrollo de software.">
+  <title>Jesús Tovar | Desarrollo de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="cv" aria-label="Currículum vitae">
-    <header class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">CURRÍCULUM VITAE · 2026</span>
-        <h1>Tu Nombre <span>Apellido</span></h1>
-        <p class="role">Estudiante de Ingeniería · Desarrollo de Software</p>
-        <p class="intro">Estudiante apasionado por construir soluciones tecnológicas útiles, aprender nuevas herramientas y colaborar en proyectos con impacto real. En búsqueda de una oportunidad de residencias profesionales.</p>
-      </div>
-      <div class="monogram" aria-hidden="true">TN</div>
-    </header>
-
-    <section class="contact" aria-label="Datos de contacto">
-      <a href="mailto:correo@ejemplo.com">✉ <span>correo@ejemplo.com</span></a>
-      <a href="tel:+520000000000">☎ <span>+52 000 000 0000</span></a>
-      <span>⌖ <span>Guanajuato, México</span></span>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">↗ <span>GitHub</span></a>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">↗ <span>LinkedIn</span></a>
-    </section>
-
-    <div class="content">
-      <div class="main-column">
-        <section class="section" aria-labelledby="perfil">
-          <h2 id="perfil">Perfil profesional</h2>
-          <p>Estudiante de ingeniería con conocimientos en desarrollo web, bases de datos y soluciones backend. Me interesa participar en equipos donde pueda aplicar mis conocimientos, fortalecer mis habilidades y contribuir a productos de calidad.</p>
-        </section>
-
-        <section class="section" aria-labelledby="proyectos">
-          <h2 id="proyectos">Proyectos destacados</h2>
-          <article class="entry">
-            <div class="entry-head"><h3>Aplicación web full stack</h3><span class="date">Proyecto académico</span></div>
-            <p>Desarrollo de una aplicación web con autenticación, persistencia de datos y consumo de servicios externos.</p>
-            <p class="tech">HTML · CSS · JavaScript · Supabase</p>
-          </article>
-          <article class="entry">
-            <div class="entry-head"><h3>Panel de análisis de datos</h3><span class="date">Proyecto personal</span></div>
-            <p>Diseño de un panel para organizar y visualizar indicadores, facilitando la interpretación de información.</p>
-            <p class="tech">SQL · Python · Visualización de datos</p>
-          </article>
-        </section>
-
-        <section class="section" aria-labelledby="experiencia">
-          <h2 id="experiencia">Experiencia y actividades</h2>
-          <article class="entry">
-            <div class="entry-head"><h3>Colaboración en proyectos académicos</h3><span class="date">Durante la carrera</span></div>
-            <p>Participación en el análisis de requerimientos, desarrollo de funcionalidades, documentación y presentación de resultados en equipo.</p>
-          </article>
-        </section>
-
-        <section class="section" aria-labelledby="educacion">
-          <h2 id="educacion">Formación académica</h2>
-          <article class="entry">
-            <div class="entry-head"><h3>Ingeniería en [nombre de la carrera]</h3><span class="date">[Año] – Actualidad</span></div>
-            <p>[Nombre de la universidad o instituto tecnológico]</p>
-            <p class="muted">Estudiante próximo a realizar residencias profesionales.</p>
-          </article>
-        </section>
-      </div>
-
-      <aside class="side-column" aria-label="Información complementaria">
-        <section class="section" aria-labelledby="habilidades">
-          <h2 id="habilidades">Habilidades técnicas</h2>
-          <h3 class="subheading">Desarrollo web</h3>
-          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span></div>
-          <h3 class="subheading">Backend y datos</h3>
-          <div class="tags"><span>SQL</span><span>Supabase</span><span>APIs REST</span><span>Python</span></div>
-          <h3 class="subheading">Herramientas</h3>
-          <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span></div>
-        </section>
-        <section class="section" aria-labelledby="competencias">
-          <h2 id="competencias">Competencias</h2>
-          <ul class="simple-list"><li>Resolución de problemas</li><li>Trabajo en equipo</li><li>Aprendizaje autónomo</li><li>Comunicación efectiva</li><li>Atención al detalle</li></ul>
-        </section>
-        <section class="section" aria-labelledby="idiomas">
-          <h2 id="idiomas">Idiomas</h2>
-          <div class="language"><strong>Español</strong><span>Nativo</span></div>
-          <div class="language"><strong>Inglés</strong><span>[Tu nivel]</span></div>
-        </section>
-        <section class="availability"><span class="status-dot"></span><div><strong>Disponible para residencias</strong><p>Interés en desarrollo web, backend y datos.</p></div></section>
-      </aside>
-    </div>
-    <footer>Referencias y portafolio disponibles a solicitud.</footer>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <nav class="navbar navbar-expand-lg fixed-top" id="topnav"><div class="container-xl">
+    <a class="navbar-brand" href="#inicio"><span class="brand-mark">JT<span>.</span></span><span class="brand-caption">PORTFOLIO / CV</span></a>
+    <div class="d-flex align-items-center gap-2 order-lg-3"><button class="icon-button" id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema"><i class="bi bi-sun"></i></button><button class="navbar-toggler icon-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menú"><i class="bi bi-list"></i></button><a class="btn btn-primary btn-sm d-none d-sm-inline-flex" href="#contacto">Contáctame <i class="bi bi-arrow-up-right ms-2"></i></a></div>
+    <div class="collapse navbar-collapse justify-content-center" id="mainMenu"><ul class="navbar-nav gap-lg-3"><li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li><li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li><li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li><li class="nav-item"><a class="nav-link" href="#trayectoria">Trayectoria</a></li></ul></div>
+  </div></nav>
+  <main>
+    <section class="hero section-space" id="inicio"><div class="container-xl"><div class="row align-items-center gy-5"><div class="col-lg-8 reveal"><div class="eyebrow"><span class="status-dot"></span> PERFIL PROFESIONAL · TECNOLOGÍA</div><div class="hero-kicker">Hola, soy Jesús Tovar <span class="wave">✳</span></div><h1>Construyo soluciones <span class="gradient-text">digitales que funcionan.</span></h1><p class="hero-lead">Estudiante de tecnología enfocado en desarrollo de software, aplicaciones web y soluciones basadas en datos. Me interesa convertir problemas reales en productos claros, útiles y bien construidos.</p><div class="hero-actions"><a href="#proyectos" class="btn btn-primary btn-lg">Explorar proyectos <i class="bi bi-arrow-down-right ms-2"></i></a><button id="printCV" class="btn btn-outline-custom btn-lg"><i class="bi bi-download me-2"></i>Guardar CV en PDF</button></div><div class="social-row"><a href="https://github.com/jesustovaarr" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub <i class="bi bi-arrow-up-right small"></i></a><a href="#contacto"><i class="bi bi-envelope"></i> Contacto <i class="bi bi-arrow-up-right small"></i></a></div></div><div class="col-lg-4 reveal"><div class="profile-card"><div class="profile-glow"></div><div class="avatar-monogram">JT<span>✳</span></div><div class="profile-info"><span class="micro-label">ENFOQUE</span><strong>Software & Web</strong><div class="profile-divider"></div><div class="d-flex justify-content-between align-items-center"><span class="muted">Portafolio</span><span class="pill">En desarrollo</span></div></div><div class="card-corner">01 / PROFILE</div></div></div></div><div class="hero-bottom"><span>DESLIZA PARA EXPLORAR</span><i class="bi bi-arrow-down"></i><span>DISEÑO · CÓDIGO · SOLUCIONES</span></div></div></section>
+    <section class="section-space" id="sobre-mi"><div class="container-xl"><div class="section-heading reveal"><span class="section-number">01 / SOBRE MÍ</span><h2>Un poco <span class="muted-heading">sobre mí.</span></h2></div><div class="row g-4"><div class="col-lg-7 reveal"><div class="glass-panel about-panel"><div class="icon-square"><i class="bi bi-person-workspace"></i></div><h3>Curiosidad técnica. Mentalidad práctica.</h3><p>Disfruto aprender tecnologías, entender cómo funcionan los sistemas y construir aplicaciones desde la idea hasta su implementación. Busco oportunidades para colaborar con equipos, seguir desarrollando mis habilidades y aportar soluciones reales.</p><p class="mb-0 subdued">Este sitio es una plantilla editable: personaliza el texto para reflejar tu experiencia, logros y objetivos profesionales.</p></div></div><div class="col-lg-5 reveal"><div class="glass-panel detail-panel"><div class="detail-line"><i class="bi bi-mortarboard"></i><div><small>FORMACIÓN</small><strong>Estudiante de tecnología</strong></div></div><div class="detail-line"><i class="bi bi-code-slash"></i><div><small>INTERESES</small><strong>Web · Backend · Datos</strong></div></div><div class="detail-line"><i class="bi bi-geo-alt"></i><div><small>UBICACIÓN</small><strong>México</strong></div></div><div class="detail-line"><i class="bi bi-briefcase"></i><div><small>OBJETIVO</small><strong>Residencias profesionales</strong></div></div></div></div></div></div></section>
+    <section class="section-space" id="habilidades"><div class="container-xl"><div class="section-heading reveal"><span class="section-number">02 / STACK TECNOLÓGICO</span><h2>Herramientas para <span class="muted-heading">crear.</span></h2><p>Una selección ilustrativa de tecnologías. Conserva únicamente las que realmente dominas.</p></div><div class="row g-3"><div class="col-md-4 reveal"><div class="skill-card"><div class="skill-icon"><i class="bi bi-window-sidebar"></i></div><h3>Frontend</h3><p>Interfaces accesibles, adaptables y fáciles de usar.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div></div></div><div class="col-md-4 reveal"><div class="skill-card"><div class="skill-icon"><i class="bi bi-hdd-network"></i></div><h3>Backend</h3><p>APIs, lógica de negocio y servicios conectados.</p><div class="tags"><span>REST APIs</span><span>Node.js</span><span>SQL</span><span>Supabase</span></div></div></div><div class="col-md-4 reveal"><div class="skill-card"><div class="skill-icon"><i class="bi bi-diagram-3"></i></div><h3>Herramientas</h3><p>Control de versiones, despliegue y trabajo colaborativo.</p><div class="tags"><span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span></div></div></div></div></div></section>
+    <section class="section-space" id="proyectos"><div class="container-xl"><div class="section-heading reveal"><span class="section-number">03 / TRABAJO SELECCIONADO</span><div class="d-flex justify-content-between align-items-end flex-wrap gap-3"><div><h2>Proyectos <span class="muted-heading">destacados.</span></h2><p>Tarjetas de demostración: reemplaza los títulos, descripciones y enlaces por proyectos reales.</p></div><div class="filter-group" role="group" aria-label="Filtrar proyectos"><button class="filter-btn active" data-filter="all" aria-pressed="true">Todos</button><button class="filter-btn" data-filter="web" aria-pressed="false">Web</button><button class="filter-btn" data-filter="data" aria-pressed="false">Datos</button></div></div></div><div class="row g-4" id="projectGrid"><div class="col-md-6 project-item reveal" data-category="web"><article class="project-card"><div class="project-art art-one"><span class="art-label">01 — WEB APPLICATION</span><div class="mock-browser"><div class="mock-top"><i></i><i></i><i></i></div><div class="mock-content"><div class="mock-sidebar"></div><div class="mock-lines"><b></b><span></span><span></span><div class="mock-cards"><em></em><em></em><em></em></div></div></div></div></div><div class="project-content"><div class="project-meta">DESARROLLO WEB <span>↗</span></div><h3>Aplicación web de ejemplo</h3><p>Describe aquí el problema que resolviste, tu contribución y el resultado obtenido.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article></div><div class="col-md-6 project-item reveal" data-category="data"><article class="project-card"><div class="project-art art-two"><span class="art-label">02 — DATA EXPERIENCE</span><div class="chart-demo"><div class="chart-header"><span></span><span></span></div><div class="chart-bars"><i style="--h:43%"></i><i style="--h:65%"></i><i style="--h:51%"></i><i style="--h:86%"></i><i style="--h:72%"></i><i style="--h:100%"></i><i style="--h:78%"></i></div></div></div><div class="project-content"><div class="project-meta">ANÁLISIS DE DATOS <span>↗</span></div><h3>Dashboard de ejemplo</h3><p>Explica qué datos procesaste, cómo los visualizaste y qué decisiones facilitaste.</p><div class="tags"><span>SQL</span><span>Dashboards</span><span>APIs</span></div></div></article></div></div></div></section>
+    <section class="section-space" id="trayectoria"><div class="container-xl"><div class="section-heading reveal"><span class="section-number">04 / TRAYECTORIA</span><h2>Mi camino <span class="muted-heading">hasta aquí.</span></h2></div><div class="timeline reveal"><div class="timeline-item"><div class="timeline-point"></div><div class="timeline-date">ACTUALIDAD</div><div><h3>Formación académica</h3><p class="timeline-sub">Institución y carrera · Personalizar</p><p>Agrega tu carrera, institución, periodo de estudios y los aprendizajes o proyectos más relevantes.</p></div></div><div class="timeline-item"><div class="timeline-point"></div><div class="timeline-date">PROYECTOS</div><div><h3>Experiencia práctica</h3><p class="timeline-sub">Proyectos escolares y personales · Personalizar</p><p>Incluye proyectos reales, responsabilidades, herramientas utilizadas y resultados medibles cuando existan.</p></div></div></div></div></section>
+    <section class="section-space contact-section" id="contacto"><div class="container-xl"><div class="contact-panel reveal"><span class="section-number">05 / CONTACTO</span><h2>¿Construimos algo <span class="gradient-text">juntos?</span></h2><p>Estoy abierto a conversar sobre oportunidades de residencias profesionales, colaboración y proyectos tecnológicos.</p><div class="contact-actions"><a class="btn btn-primary btn-lg" href="https://github.com/jesustovaarr" target="_blank" rel="noopener noreferrer">Ver mi GitHub <i class="bi bi-arrow-up-right ms-2"></i></a><button class="btn btn-outline-custom btn-lg" id="copyProfile"><i class="bi bi-link-45deg me-2"></i>Copiar enlace</button></div><small class="contact-note">Agrega aquí tu correo profesional y LinkedIn antes de publicar.</small></div></div></section>
   </main>
-</body>
-</html>
+  <footer><div class="container-xl d-flex justify-content-between flex-wrap gap-3"><span><strong>JT.</strong> © <span id="year"></span> · Portafolio profesional</span><a href="#inicio">Volver arriba <i class="bi bi-arrow-up"></i></a></div></footer>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="siteToast" class="toast" role="status" aria-live="polite"><div class="toast-body d-flex justify-content-between align-items-center"><span id="toastText">Enlace copiado</span><button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button></div></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script><script src="script.js" defer></script>
+</body></html>
